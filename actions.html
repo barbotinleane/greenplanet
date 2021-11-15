@@ -16,25 +16,25 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark-green">
             <div class="container-fluid">
-              <a class="navbar-brand text-dark-green secular-one" href="#">GREENPLANET</a>
+              <a class="navbar-brand secular-one" href="accueil.html">GREENPLANET</a>
               <button 
               class="navbar-toggler" 
               type="button" 
               data-bs-toggle="collapse" 
-              data-bs-target="#navbarNav" 
-              aria-controls="navbarNav" 
+              data-bs-target="#navigation" 
+              aria-contrlis="navbarNav" 
               aria-expanded="false" 
               aria-label="Toggle navigation"
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse" id="navigation">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Mon plan d'action</a>
+                    <a class="nav-link" href="actions.html">Mon plan d'action</a>
                   </li>
                 </ul>
               </div>
@@ -42,16 +42,85 @@
         </nav>
     </header>
 
+    <main>
+        <article class="title-actions">
+            <h1 class="secular-one">
+                <span class="size-little">7 étapes pour</span><br>
+                <span class="size-3">SAUVER MA PLANETE</span>
+            </h1>
+        </article>
+
+        <article class="p-5 bg-light-green">
+            <ol>
+                <li class="py-4">
+                    <span class="secular-one size-4">Faire le tri sélectif</span>
+                </li>
+                <li class="py-4">
+                    Je m'efforce, pour des trajets courts, 
+                    de <span class="secular-one size-4">changer de la voiture au vélo</span> au moins
+                    une fois par semaine.
+                </li>
+                <li class="py-4">
+                    <span class="secular-one size-4">Limiter ma consommation de viande</span> (voir l'enlever
+                    totalement)
+                </li>
+                <li class="py-4">
+                    <span class="secular-one size-4">Eviter le plastique.</span> Pourquoi pas acheter mon propre
+                    sac cabas que j'emmène pour faire les courses ?
+                </li>
+                <li class="py-4">
+                    <span class="secular-one size-4">Eteindre les lumières</span> lorsque je quitte une pièce, 
+                    mais aussi éteindre plutôt que mettre en veille mes
+                    appareils électroniques.
+                </li>
+                <li class="py-4">
+                    <span class="secular-one size-4">Acheter d'occasion.</span> Pourquoi ne pas tester BackMarket
+                    ou Vinted ? (Non, non, on vous assure, nous ne sommes
+                    pas sponsorisés !!)
+                </li>
+                <li class="py-4">
+                    <span class="secular-one size-4">Manger local et de saison.</span> Plus besoin de faire venir 
+                    les fraises du Kenya pour pouvoir en manger en octobre...
+                </li>
+            </ol>
+
+            <p class="size-4 secular-one">
+                Pourquoi ne pas vous fixer l'objectif de l'imprimer sur votre frigo et
+                 faire ces sept choses chaque semaine ? 
+            </p>
+        </article>
+
+        <article class="p-5">
+            <h2 class="size-3 secular-one">
+                Parlez de nous
+            </h2>
+            <div class="text-center p-4">
+                <button class="button-green">
+                    Partager
+                </button>
+            </div>
+            <p>
+                Postez vos actions pour la planète avec le hashtag 
+                #OnFaitLaDifférence...
+            </p>
+        </article>
+
+        <article class="size-3 secular-one p-5 bg-green text-dark-green">
+            Oui, si nous nous y mettons tous, nous pouvons faire la différence !
+        </article>
+    </main>
 
     <footer class="secular-one d-flex justify-content-between p-5 bg-dark-green text-light-green">
         <ul class="list-unstyled">
-            <li>Accueil</li>
-            <li>Agir</li>
+            <li><a class="link-footer" href="accueil.html">Accueil</a></li>
+            <li><a class="link-footer" href="actions.html">Agir</a></li>
         </ul>
         <ul class="list-unstyled">
-            <li>Facebook</li>
-            <li>Instagram</li>
+            <li><a class="link-footer" href="https://www.facebook.com">Facebook</a></li>
+            <li><a class="link-footer" href="https://www.instagram.com">Instagram</a></li>
         </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

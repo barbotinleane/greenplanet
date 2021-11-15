@@ -12,6 +12,10 @@
 }
 
 /*Sizes : */
+.size-little {
+  font-size: 0.7em;
+}
+
 .size-1 {
   font-size: 6em;
 }
@@ -30,33 +34,33 @@
 
 /*Backgrounds : */
 .bg-green {
-  background-color: #89e691;
+  background-color: #7FD95B;
 }
 
 .bg-dark-green {
-  background-color: #3D6641;
+  background-color: #055724;
 }
 
 .bg-light-green {
-  background-color: #D2EAD4;
+  background-color: #d9ebda;
 }
 
 .text-green {
-  color: #89e691;
+  color: #7FD95B;
 }
 
 .text-dark-green {
-  color: #3D6641;
+  color: #055724;
 }
 
 .text-light-green {
-  color: #D2EAD4;
+  color: #d9ebda;
 }
 
 .button-green {
   padding: 9px 19px;
   border-radius: 10px;
-  background-color: #89e691;
+  background-color: #7FD95B;
   color: black;
   border: 1px solid black;
   font-size: 1.3em;
@@ -65,7 +69,7 @@
 .button-green:hover {
   padding: 9px 19px;
   border-radius: 10px;
-  background-color: #9eeaa5;
+  background-color: #8fde70;
   color: black;
   border: 1px solid black;
   font-size: 1.3em;
@@ -86,12 +90,32 @@
   background-size: cover;
 }
 
+.title-actions {
+  padding: 50px;
+  height: 500px;
+  color: white;
+  background: url(images/planet.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .citation {
   font-style: italic;
 }
 
 .name {
   text-align: end;
+}
+
+.link-footer {
+  color: #d9ebda;
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  color: #7FD95B;
+  text-decoration: none;
 }
 
 /*html balises*/
