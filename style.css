@@ -1,0 +1,127 @@
+/*Fonts : */
+@font-face {
+  font-family: "SecularOne";
+  src: url("fonts/SecularOne-Regular.ttf") format("truetype");
+}
+
+/*Colors : */
+/*Class : */
+/*Fonts : */
+.secular-one {
+  font-family: SecularOne, serif;
+}
+
+/*Sizes : */
+.size-1 {
+  font-size: 6em;
+}
+
+.size-2 {
+  font-size: 3.5em;
+}
+
+.size-3 {
+  font-size: 2em;
+}
+
+.size-4 {
+  font-size: 1.5em;
+}
+
+/*Backgrounds : */
+.bg-green {
+  background-color: #89e691;
+}
+
+.bg-dark-green {
+  background-color: #3D6641;
+}
+
+.bg-light-green {
+  background-color: #D2EAD4;
+}
+
+.text-green {
+  color: #89e691;
+}
+
+.text-dark-green {
+  color: #3D6641;
+}
+
+.text-light-green {
+  color: #D2EAD4;
+}
+
+.button-green {
+  padding: 9px 19px;
+  border-radius: 10px;
+  background-color: #89e691;
+  color: black;
+  border: 1px solid black;
+  font-size: 1.3em;
+}
+
+.button-green:hover {
+  padding: 9px 19px;
+  border-radius: 10px;
+  background-color: #9eeaa5;
+  color: black;
+  border: 1px solid black;
+  font-size: 1.3em;
+}
+
+.mt-negative {
+  margin-top: -20px;
+}
+
+/*special class*/
+.title {
+  padding: 50px;
+  height: 500px;
+  color: black;
+  background-image: url(images/leaf.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.citation {
+  font-style: italic;
+}
+
+.name {
+  text-align: end;
+}
+
+/*html balises*/
+h2 {
+  font-family: SecularOne, serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*depends on the width of the screen*/
+.image {
+  width: 100%;
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 480px) {
+  .image {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
