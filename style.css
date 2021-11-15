@@ -126,25 +126,25 @@ h2 {
 }
 
 /*depends on the width of the screen*/
-.image {
+.w-adaptative {
   width: 100%;
   margin: 20px auto;
 }
 
 @media screen and (min-width: 480px) {
-  .image {
+  .w-adaptative {
     width: 70%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .image {
+  .w-adaptative {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .image {
+  .w-adaptative {
     width: 50%;
   }
 }
