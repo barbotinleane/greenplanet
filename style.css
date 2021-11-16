@@ -131,21 +131,185 @@ h2 {
   margin: 20px auto;
 }
 
+.flex-adaptative {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 0.8fr 1fr 0.9fr;
+      grid-template-rows: 0.8fr 1fr 0.9fr;
+}
+
+.text-adaptative {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.quotes-adaptative {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.image-adaptative {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 20px 0px;
+}
+
 @media screen and (min-width: 480px) {
   .w-adaptative {
-    width: 70%;
+    width: 80%;
+  }
+  .flex-adaptative {
+    margin-top: 30px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 0.9fr 2fr 1fr;
+        grid-template-rows: 0.9fr 2fr 1fr;
+  }
+  .text-adaptative {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .quotes-adaptative {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 20px;
+  }
+  .image-adaptative {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0px 40px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .w-adaptative {
-    width: 50%;
+    width: 80%;
+  }
+  .flex-adaptative {
+    margin-top: 30px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 1.5fr 1fr;
+        grid-template-columns: 1.5fr 1fr;
+    -ms-grid-rows: 2fr 1.5fr;
+        grid-template-rows: 2fr 1.5fr;
+  }
+  .text-adaptative {
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    grid-column-end: 3;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 20px;
+    text-align: center;
+  }
+  .quotes-adaptative {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 3;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .image-adaptative {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 2;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .w-adaptative {
-    width: 50%;
+    width: 80%;
+  }
+  .flex-adaptative {
+    margin-top: 30px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 2fr 1.5fr;
+        grid-template-rows: 2fr 1.5fr;
+  }
+  .text-adaptative {
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    grid-column-end: 3;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .quotes-adaptative {
+    border-top: solid 1px #055724;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    grid-column-end: 3;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0px 38px;
+    padding: 38px 0px;
+  }
+  .image-adaptative {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 3;
   }
 }
 /*# sourceMappingURL=style.css.map */
